@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background1"
+    >
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="File permissions"
+        android:background="@drawable/button1"
+        android:id="@+id/btn1"
+        android:textSize="25sp"/>
+    <Button
+    android:layout_width="300dp"
+    android:layout_height="100dp"
+    android:text="All permittions"
+        android:id="@+id/btn2"
+        android:background="@drawable/button2"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"/>
+
+
+
+
+</LinearLayout>

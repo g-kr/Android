@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2D2092</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="button1pressed">#0095FF</color>
+    <color name="button2pressed">#1AFF00</color>
+    <color name="button3pressed">#FF0000</color>
+    <color name="button4pressed">#9B6AD7</color>
+    <color name="button1relesed">#660C40</color>
+    <color name="button2relesed">#1C0930</color>
+    <color name="button3relesed">#2D2092</color>
+    <color name="button4relesed">#0095FF</color>
+</resources>

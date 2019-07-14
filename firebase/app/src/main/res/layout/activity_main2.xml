@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/background2">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/userfive"/>
+    <EditText
+        android:hint="Enter Email"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/ed1"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:hint="Enter Password"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/ed2"
+        android:inputType="textPassword"
+        android:ems="10"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:id="@+id/btn1"
+        android:text="signup"
+        android:textSize="30sp"
+        android:background="@drawable/button1"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Already have a account signin"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:id="@+id/txtview"/>
+
+</LinearLayout>

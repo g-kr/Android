@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/button4pressed">
+
+            </solid>
+            <corners android:radius="10dp"></corners>
+
+
+        </shape>
+
+    </item>
+    <item >
+        <shape android:shape="rectangle">
+            <solid android:color="@color/button4relesed"></solid>
+            <corners android:radius="10dp"></corners>
+            <stroke android:width="4dp"
+                color="#040505" />
+
+
+        </shape>
+
+    </item>
+
+
+</selector>
